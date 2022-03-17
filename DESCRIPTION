@@ -1,0 +1,21 @@
+Package: dynamicar
+Version: 0.0.1
+Date: 2022-02-01
+Title: A SMART Approach to Prophylaxis and Treatment Studies
+Authors@R: c(person("Robert", "Mahar", role = c("aut", "cre"),
+                     email = "robert.mahar@unimelb.edu.au"))
+Author: Robert Mahar [aut, cre]
+Maintainer: Robert Mahar <robert.mahar@unimelb.edu.au>
+Depends: 
+  R (>= 4.0.5)
+Imports:
+  plyr (>= 1.8.6), 
+  xtable (>= 1.8-4), 
+  matrixStats (>= 0.58.0), 
+  rstan (>= 2.21.1)
+Description: An R package encapsulating functions and scripts used to evaluate a decision-theoretic SMART with adaptive randomisation. 
+License: GPL (>=3)
+URL: https://github.com/robertmahar/dynamicar
+BugReports: https://github.com/robertmahar/dynamicar/issues
+RoxygenNote: 7.1.2
+Encoding: UTF-8

@@ -1,0 +1,29 @@
+# R-related stuff
+*.Rproj*
+*.Rhistory
+*.Rapp*
+*.R*ata
+*.Rout
+*.rda
+*.Ruserdata
+*.Renviron
+*.mds_store
+*.DS_Store
+*.save
+*.Rbuildignore
+*.Renviron
+
+# Files we don't want to track/Git doesn't like.
+*.pdf 
+*.xl*
+*.ppt*
+*.rds*
+*.log*
+*.synctex*
+*.gz*
+*.html*
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+.Rproj.user
